@@ -1,0 +1,128 @@
+{
+  "vpc-provider:account=584211948214:filter.isDefault=true:region=us-east-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0c5aa9a5d1982609f",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "ownerAccountId": "584211948214",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-021b71f23005b7280",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "us-east-1a",
+            "routeTableId": "rtb-0598cfd227d9869ad"
+          },
+          {
+            "subnetId": "subnet-01413d7fdf8e66b2a",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "us-east-1b",
+            "routeTableId": "rtb-0598cfd227d9869ad"
+          },
+          {
+            "subnetId": "subnet-03a903cbb249c86d6",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "us-east-1c",
+            "routeTableId": "rtb-0598cfd227d9869ad"
+          },
+          {
+            "subnetId": "subnet-04ca148dbe7679d7b",
+            "cidr": "172.31.80.0/20",
+            "availabilityZone": "us-east-1d",
+            "routeTableId": "rtb-0598cfd227d9869ad"
+          },
+          {
+            "subnetId": "subnet-0f3c3750def1741af",
+            "cidr": "172.31.48.0/20",
+            "availabilityZone": "us-east-1e",
+            "routeTableId": "rtb-0598cfd227d9869ad"
+          },
+          {
+            "subnetId": "subnet-0d8086166e96d0109",
+            "cidr": "172.31.64.0/20",
+            "availabilityZone": "us-east-1f",
+            "routeTableId": "rtb-0598cfd227d9869ad"
+          }
+        ]
+      }
+    ]
+  },
+  "vpc-provider:account=584211948214:filter.isDefault=true:region=us-east-2:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-09046955f3f78c7ef",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "ownerAccountId": "584211948214",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-05267854f4ae3dae1",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "us-east-2a",
+            "routeTableId": "rtb-096c04e12199f61e8"
+          },
+          {
+            "subnetId": "subnet-01b596b35d11bb36e",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "us-east-2b",
+            "routeTableId": "rtb-096c04e12199f61e8"
+          },
+          {
+            "subnetId": "subnet-0b16b2c25663c0d87",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "us-east-2c",
+            "routeTableId": "rtb-096c04e12199f61e8"
+          }
+        ]
+      }
+    ]
+  },
+  "vpc-provider:account=584211948214:filter.isDefault=true:region=us-west-2:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0f6b6af44799e17ce",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "ownerAccountId": "584211948214",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-0b0b8b10bf507a75a",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "us-west-2a",
+            "routeTableId": "rtb-0c417f63ec4df0b2c"
+          },
+          {
+            "subnetId": "subnet-06324b5b19eae3548",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "us-west-2b",
+            "routeTableId": "rtb-0c417f63ec4df0b2c"
+          },
+          {
+            "subnetId": "subnet-0a048d82116d39e8e",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "us-west-2c",
+            "routeTableId": "rtb-0c417f63ec4df0b2c"
+          },
+          {
+            "subnetId": "subnet-02759cbbf5441def1",
+            "cidr": "172.31.48.0/20",
+            "availabilityZone": "us-west-2d",
+            "routeTableId": "rtb-0c417f63ec4df0b2c"
+          }
+        ]
+      }
+    ]
+  },
+  "availability-zones:account=584211948214:region=us-west-2": [
+    "us-west-2a",
+    "us-west-2b",
+    "us-west-2c",
+    "us-west-2d"
+  ]
+}
